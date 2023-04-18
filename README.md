@@ -29,20 +29,23 @@ This repository consists of five Python files as following
 * Session04
 * Session05
 - Each file has its branches, these branches will be updated one day before the live session.
-- To navigate to any branch, 
+- To navigate to any branch, use this command
+>>> git checkout <session-name>
+>>> git checkout <branch-name>
 
 ## Session01
-This session consists of 10 branches as following:
-* Modules_and _the_import_keyword
-* Print_Statement
-* Input_Statement
-* Data_Types_Strings_and_Lists
+This session consists of 10 branches as follows:
+* Modules-and-the-import-keyword
+* Print-Statement
+* Input-Statement
+* Data-Types-Strings-and-Lists
 * Variables
 * Operators
 * Conditionals
-* Functions_&_the_return_statement
+* Functions-return-statement
 * Comments
 * Pycodestyle 
 
 ## Author
 This repository is created by [Mohammad Allam](http://freelanegy.club)
+
