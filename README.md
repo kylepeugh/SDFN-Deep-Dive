@@ -29,10 +29,15 @@ This repository consists of five Python files as following
 * Session04
 * Session05
 - Each file has its branches, these branches will be updated one day before the live session.
-- To navigate to any branch, 
+- To navigate to any branch:
+
+```
+$ git checkout <session-name>
+$ git checkout <branch-name>
+```
 
 ## Session01
-This session consists of 10 branches as following:
+This session consists of 10 branches as follows:
 * Modules_and _the_import_keyword
 * Print_Statement
 * Input_Statement
