@@ -1,8 +1,8 @@
 # variables is a main concept in all programming languages
 # No way to build any functionality unless you use a variable
-# to declare a variable in Python, you may use this syntax
+# to declare a variable in Python, you can use this syntax
 test = 'anything'
-# variable is refering to a place on the memory where the value live
+# variable is refering to a place on the memory where the value lives
 # when declaring a variable directly in your script it will be available for use anywhere
 # that called the variable scope 
 a = 2
