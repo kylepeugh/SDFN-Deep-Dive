@@ -17,4 +17,3 @@ print('test01' + 'test02')
 print('test' + str(123))
 print('test' + '123')
 print(int('456') + 123)
-
