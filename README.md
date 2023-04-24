@@ -32,15 +32,15 @@ This repository consists of five Python files as following
 - To navigate to any branch, 
 
 ## Session01
-This session consists of 10 branches as following:
-* Modules_and _the_import_keyword
-* Print_Statement
-* Input_Statement
-* Data_Types_Strings_and_Lists
+This session consists of 10 branches as follows:
+* Modules-and-the-import-keyword
+* Print-Statement
+* Input-Statement
+* Data-Types-Strings-and-Lists
 * Variables
 * Operators
 * Conditionals
-* Functions_&_the_return_statement
+* Functions-return-statement
 * Looping
 * Pycodestyle 
 
