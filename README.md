@@ -32,7 +32,7 @@ This repository consists of five Python files as following
 - To navigate to any branch, 
 
 ## Session01
-This session consists of 10 branches as following:
+This session consists of 10 branches as follows:
 * Modules_and _the_import_keyword
 * Print_Statement
 * Input_Statement
