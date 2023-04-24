@@ -41,7 +41,7 @@ This session consists of 10 branches as following:
 * Operators
 * Conditionals
 * Functions_&_the_return_statement
-* Comments
+* Looping
 * Pycodestyle 
 
 ## Author
