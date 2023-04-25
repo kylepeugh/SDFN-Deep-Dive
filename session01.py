@@ -7,7 +7,7 @@ print(math.pi)
 # while importing to reduce the typing effort
 import random as R
 
-menu = ['milk', 'tea', 'coffe']
+menu = ['milk', 'tea', 'coffee']
 print(R.choice(menu))
 
 # to run the code type this command
@@ -15,7 +15,7 @@ print(R.choice(menu))
 
 # As developers, we can build our own custom modules
 # Using the same example, I will create another file 
-# Instead of using the mouse, I will use this command
+# Instead of using the mouse, I will use this command in the terminal 
 # touch custom-module.py
 # I will copy the menu above to the new file
 # Now the file has been created correctly and I can import it
@@ -31,7 +31,7 @@ print(R.choice(menu))
 import custom
 # use it inside our script 
 print(custom.menu)
-# output >>> ['milk', 'tea', 'coffe']
+# output >>> ['milk', 'tea', 'coffee']
 # we can use the above example to get a random value
 print(R.choice(custom.menu))
 
