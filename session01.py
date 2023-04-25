@@ -1,4 +1,4 @@
-# variables is a main concept in all programming languages
+# variable is a main concept in all programming languages
 # No way to build any functionality unless you use a variable
 # to declare a variable in Python, you can use this syntax
 test = 'anything'
@@ -31,3 +31,4 @@ def change2():
     print(a)
 change2()
 print(a)
+
