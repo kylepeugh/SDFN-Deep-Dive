@@ -2,7 +2,11 @@
 # strings are a sequence of characters like this
 name = "John"
 print(name)
-
+# if we try the same syntax with single quotes, it will be correct 
+# so, can you tell me why using single quotes?
+# check this examples
+# welcome = "we're glad to have you!"
+# welcome02 = 'we're glad to have you'
 # if there are some names and we want to store them all at once, we need a list
 names = ["John", "Elly", "Sam"]
 print(names)
@@ -32,12 +36,14 @@ print(items)
 
 # built-in methods for strings
 text02 = "TexT"
+print(type(text02))
 print(len(text02))
 print(text02.lower())
 print(text02.upper())
 
 # built-in methods for lists
 cars = ["BMW", "VW", "FORD"]
+print(type(cars))
 # the list length
 print(len(cars))
 
@@ -56,3 +62,13 @@ print(cars)
 # insert an item before a specific index
 cars.insert(0, "AUDI")
 print(cars)
+
+# Booleans is the logical True or False values 
+# we can declare booleans directly or as a result of a comparison
+a = True
+b = 1 > 5
+c = 5 > 1
+print(a, b, c)
+
+# some values are considered False by default in python
+# False, None, zero, and empty sequence will always evaluate to False 
