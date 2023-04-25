@@ -25,7 +25,7 @@ sum(50, 78)
 sum(55, 54)
 sum(150, 965)
 
-# in the previous example, we printed the sum of x and z to but in some cases
+# in the previous example, we printed the sum of x and z but in some cases
 # we need a more dvanced aproach to be able to use the calculated value 
 # in other places in our program, not just print it
 # to achieve this, we can use the return keyword as follows
