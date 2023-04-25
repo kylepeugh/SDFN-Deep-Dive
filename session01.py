@@ -35,11 +35,11 @@ print(num01 <= num02)
 # logical operators
 # used to compin two or more comparisons 
 # the output is boolean
-print((num01 != num02) and (num01 > num02)) # true only if both true
-print((num01 == num02) or (num01 > num02)) # true if one true
-print(not num02) # true if operand is false
+print((num01 != num02) and (num01 > num02)) # True only if both sides are true
+print((num01 == num02) or (num01 > num02)) # True if one side is true
+print(not num02) # False if operand is True
 num03 = '' # False values in Python are empty strings or lists, 0, None and False
-print(not num03) # true because the string is empty
+print(not num03) # True because the string is empty
 
 # Membership operators
 
@@ -50,5 +50,4 @@ print("e" not in string01)
 list01 = ["item01", "item02", "item03"]
 print("item01" in list01)
 print("item1" not in list01)
-
 
