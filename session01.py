@@ -17,3 +17,5 @@ print('test01' + 'test02')
 print('test' + str(123))
 print('test' + '123')
 print(int('456') + 123)
+# a quick example on using the sep 
+print("value01", "value02", "value03", sep="-----")
