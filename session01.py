@@ -5,14 +5,14 @@ print("second..!")
 print("third..!")
 
 # in some cases, we need to excute the code in another sequence
-# conditionals re used to acomplish this
+# conditionals are used to acomplish this
 # if statement is used to excute a code block if a certain condition was met
 # check this psuedo code
 """ if <this_condition_is_true>:
         excute_this_code_block """
 
 # note that two things are required in a conditional 
-# 1. a semicolon at the end of the expression  (:)
+# 1. a colon at the end of the expression  (:)
 # 2. an indented statement to be excuted.
 # indentation is the way Python interpreter uses to execute a code block or a multiple lines of code 
 num01 = 10
@@ -23,7 +23,7 @@ if num01 > num02:
     print("That's correct!")
 # note that any statement at the same level of indentation will be executed 
     # print("line two")
-# in many cases, we need to execute something if the expression were false
+# in many cases, we need to execute something if the expression was false
 # else statements are used to achieve that
 else:
     print("that's wrong!")
