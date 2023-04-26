@@ -7,6 +7,14 @@ print(name)
 # check this examples
 # welcome = "we're glad to have you!"
 # welcome02 = 'we're glad to have you'
+
+# back to strings concatenation
+string01 = "some text"
+string02 = "new text"
+# to keep a white space between the two strings, we add a " "
+print(string01 + " " + string02)
+# another easy way to achieve that is by using the f statemnet or the template literals
+print(f"{string01} {string02}")
 # if there are some names and we want to store them all at once, we need a list
 names = ["John", "Elly", "Sam"]
 print(names)
