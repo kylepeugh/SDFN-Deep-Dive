@@ -1,9 +1,15 @@
-# 1. Print descriptions of what's happening for the player
-print("hello player, this game is about..........")
-# a good practice is to explain your game clearly to help players
-# navigate it easly, for example
-print("You find yourself in a place") # the place may be changed to add randomness
-print("To escape, you have to choose your direction") # the options may be changed
-print("You will have an enemy to fight") # the enemy may be changed to add randomness
-print("You win if you kill the enemy")
-print("You lose if the enemy killed you")
+# 2. Pausing between printing descriptions
+    # to add a delay to your message, the time module should be imported
+import time
+    # to use the delay, sleep method should be used like this
+print("this will be printed with no delay....")
+time.sleep(5) # the argument is the delay period by seconds 
+print("this will be printed after 5 second delay....")
+    # to make this more usable, you may think of creating a function
+    # the function will be used anywhere in the game to add a message delay
+    # you can try an aproach like this
+def delay(period, msg):
+    time.sleep(2)
+    print(msg)
+    # now, we can test it like this
+delay(2, "this will be printed after 2 second delay....")
