@@ -1,15 +1,9 @@
-# 2. Pausing between printing descriptions
-    # to add a delay to your message, the time module should be imported
-import time
-    # to use the delay, sleep method should be used like this
-print("this will be printed with no delay....")
-time.sleep(5) # the argument is the delay period by seconds 
-print("this will be printed after 5 second delay....")
-    # to make this more usable, you may think of creating a function
-    # the function will be used anywhere in the game to add a message delay
-    # you can try an aproach like this
-def delay(period, msg):
-    time.sleep(period)
-    print(msg)
-    # now, we can test it like this
-delay(2, "this will be printed after 2 second delay....")
+# 3. Give the player some choices
+    # the game should ask the player to choose between two options
+    # to do this you have to collect the user input like this
+user_choice = input("choose your drink 1. water 2. tea")
+    # a good practice is to label your choices (1 or 2)
+    # this will reduce the typing  effort and keep your game consistent
+    # anothe good practice is to print the options in separate lines
+    # and to allow the player to type in a separate line
+test_choice = input("choose 1 or 2\n 1. Water\n 2. Tea\n")
