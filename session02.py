@@ -9,7 +9,7 @@ print("this will be printed after 5 second delay....")
     # the function will be used anywhere in the game to add a message delay
     # you can try an aproach like this
 def delay(period, msg):
-    time.sleep(2)
+    time.sleep(period)
     print(msg)
     # now, we can test it like this
 delay(2, "this will be printed after 2 second delay....")
