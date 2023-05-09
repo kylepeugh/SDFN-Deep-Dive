@@ -26,8 +26,9 @@ else:
     # we can see that the program is not working as required
     # to fix this we need to include this conditionl within a loop
     
-# 5. Add functions and refactor your code
-# 6. Use randomness in your game
-# 7. Create win and lose conditions
-# 8. Check if the player wants to play again
-# 9. Check your style with pycodestyle
+
+# 5. Use randomness in your game
+# 6. Create win and lose conditions
+# 7. Check if the player wants to play again
+# 8. Check your style with pycodestyle
+# 9. Add functions and refactor your code
