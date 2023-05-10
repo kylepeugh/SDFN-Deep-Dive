@@ -18,14 +18,15 @@ def intro():
 
 # 4. Refactor the check_invalid function to use it correctly
 def check_invalid(option1, option2):
-    choice = input(f"choose 1 or 2\n 1. {option1}\n 2. {option2}\n")
-    if choice == "1":
-        return 1
-    elif choice == "2":
-        return 2
-    else:
-        print("this is an invalid input?!!!")
-        check_invalid(option1, option2)
+    while True:
+        choice = input(f"choose 1 or 2\n 1. {option1}\n 2. {option2}\n")
+        if choice == "1":
+            return 1
+        elif choice == "2":
+            return 2
+        else:
+            print("this is an invalid input?!!!")
+            
 # 5. refactor the play agian function
 def play_again(enemy):
     option = input("Do you like to play again?\n 1. Yes\n 2. No\n")
@@ -37,7 +38,7 @@ def play_again(enemy):
         print("Thanks for playing, see you soon!")
     else:
         # restart the function until you get the correct answer
-        play_again()
+        play_again(enemy)
 # 6. Refactor the go function
 def go(enemy):
     choice = check_invalid("Go Right", "Go Left")
