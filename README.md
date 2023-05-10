@@ -29,7 +29,12 @@ This repository consists of five Python files as following
 * Session04
 * Session05
 - Each file has its branches, these branches will be updated one day before the live session.
-- To navigate to any branch, 
+- To navigate to any branch,
+
+```
+$ git checkout <session-name>
+$ git checkout <branch-name>
+```
 
 ## Session01
 This session consists of 10 branches as follows:
@@ -43,6 +48,17 @@ This session consists of 10 branches as follows:
 * Functions_&_the_return_statement
 * Looping
 * Pycodestyle 
+
+## Session02
+This session consists of 8 branches as follows:
+* task01
+* task02
+* task03
+* task04
+* task05
+* task06
+* task07
+* task08
 
 ## Author
 This repository is created by [Mohammad Allam](http://freelanegy.club)
