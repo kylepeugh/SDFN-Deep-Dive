@@ -28,7 +28,7 @@ def check_invalid(option1, option2):
             print("this is an invalid input?!!!")
             
 # 5. refactor the play agian function
-def play_again(enemy):
+def play_again():
     option = input("Do you like to play again?\n 1. Yes\n 2. No\n")
     if option == "1":
         # you have to start the game again
@@ -38,7 +38,7 @@ def play_again(enemy):
         print("Thanks for playing, see you soon!")
     else:
         # restart the function until you get the correct answer
-        play_again(enemy)
+        play_again()
 # 6. Refactor the go function
 def go(enemy):
     choice = check_invalid("Go Right", "Go Left")
@@ -48,11 +48,11 @@ def go(enemy):
         if option == 1:
             print(f"your gun is so  powerful, {enemy} is dead!")
             print("You win the game")
-            play_again(enemy)
+            play_again()
         elif option == 2:
             print(f"you ranaway but  the {enemy} found you")
             print("you lose!")
-            play_again(enemy)
+            play_again()
         else:
             go(enemy)
     elif choice == 2:
@@ -61,11 +61,11 @@ def go(enemy):
         if option == 1:
             print(f"your gun is so  powerful, {enemy} is dead!")
             print("You win the game")
-            play_again(enemy)
+            play_again()
         elif option == 2:
             print(f"you ranaway but  the {enemy} found you")
             print("you lose!")
-            play_again(enemy)
+            play_again()
         else:
             go(enemy)
     else:
