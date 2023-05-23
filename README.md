@@ -67,5 +67,17 @@ This session consists of 4 branches as follows:
 * inheritance
 * super
 
+## Session04
+This session consists of 9 branches as follows:
+* starter
+* random
+* score
+* ties
+* human
+* reflect
+* cycle
+* win
+* style
+
 ## Author
 This repository is created by [Mohammad Allam](http://freelanegy.club)
