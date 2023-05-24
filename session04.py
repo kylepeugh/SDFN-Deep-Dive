@@ -77,7 +77,6 @@ class ReflectPlayer(Player):
             return self.my_move
         else:
             return random.choice(moves)
-        
     def learn(self, my_move, their_move):
         # try to figure how we can bring the user move
         self.my_move = their_move
@@ -97,9 +96,8 @@ class Game:
         # to handle the ties correctly
         # check if the two moves are the same
         if move1 == move2:
-            print("That was a tie, this round will be repeated")
+            print("That was a tie!!!")
             print(f"Player score is :{self.p1.score} || Random player score is: {self.p2.score}")
-            self.play_round()
         # if they were not the same, let's see who win
         # I will indent the if statement
         else:
