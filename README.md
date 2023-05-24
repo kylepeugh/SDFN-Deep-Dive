@@ -76,7 +76,6 @@ This session consists of 4 branches as follows:
 * human
 * reflect
 * cycle
-* input
 * win
 * style
 
