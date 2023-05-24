@@ -68,7 +68,7 @@ This session consists of 4 branches as follows:
 * super
 
 ## Session04
-This session consists of 4 branches as follows:
+This session consists of 9 branches as follows:
 * starter
 * random
 * score
