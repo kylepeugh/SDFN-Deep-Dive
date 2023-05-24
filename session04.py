@@ -42,7 +42,10 @@ class Game:
             self.play_round()
         print("Game over!")
 
-
+# this if statement is used to conditionally execute the game
+# inside the terminal as a python script
+# that means if you import this file inside another python file
+# the game wont be run 
 if __name__ == '__main__':
     game = Game(Player(), Player())
     game.play_game()
