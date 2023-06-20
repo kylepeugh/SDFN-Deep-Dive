@@ -38,14 +38,14 @@ $ git checkout <branch-name>
 
 ## Session01
 This session consists of 10 branches as follows:
-* Modules_and _the_import_keyword
+* Modules-and-the-import-keyword
 * Print_Statement
-* Input_Statement
-* Data_Types_Strings_and_Lists
+* Input-Statement
+* Data-Types-Strings-and-Lists
 * Variables
 * Operators
 * Conditionals
-* Functions_&_the_return_statement
+* Functions-return-statement
 * Looping
 * Pycodestyle 
 
