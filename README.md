@@ -39,7 +39,7 @@ $ git checkout <branch-name>
 ## Session01
 This session consists of 10 branches as follows:
 * Modules-and-the-import-keyword
-* Print_Statement
+* Print-Statement
 * Input-Statement
 * Data-Types-Strings-and-Lists
 * Variables
@@ -66,7 +66,23 @@ This session consists of 4 branches as follows:
 * self
 * inheritance
 * super
-## session04
-* test
+
+## Session04
+This session consists of 9 branches as follows:
+* starter
+* random
+* score
+* ties
+* human
+* reflect
+* cycle
+* win
+* style
+
+## Session05
+This session consists of 2 branches as follows:
+* local
+* remote
+
 ## Author
 This repository is created by [Mohammad Allam](http://freelanegy.club)
